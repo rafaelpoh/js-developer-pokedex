@@ -37,7 +37,7 @@ Este projeto passou por diversas melhorias e refatorações. As principais alter
 ### Melhorias Iniciais e Refatoração
 *   **Estrutura HTML:** Ajuste de caminhos absolutos para relativos em `index.html` e uso de tags semânticas (`<main>`).
 *   **Estilização Global:** Otimização do CSS global para melhor responsividade e adição de estilos base para o `body`.
-*   **Organização CSS:** Centralização das definições de cores de tipo em `assets/css/global.css` para remover duplicação em outros arquivos CSS.
+*   **Organização CSS:** Centralização das definições de cores de tipo em `assets/css/pokemon-types.css` utilizando variáveis CSS para remover duplicação e facilitar a manutenção em outros arquivos CSS (`pokedex.css` e `pokemon-detail.css`).
 *   **Reset CSS:** Criação de `assets/css/reset.css` e inclusão em todas as páginas HTML para padronização de estilos entre navegadores.
 *   **Efeito de Hover:** Adição de um efeito visual de "hover" nos cards de Pokémon na página principal.
 
@@ -49,5 +49,16 @@ Este projeto passou por diversas melhorias e refatorações. As principais alter
     *   Posicionamento do conteúdo (imagem do Pokémon, nome, número, tipos) na "tela esquerda" da imagem de fundo.
     *   Posicionamento das estatísticas do Pokémon na "tela direita" da imagem de fundo.
     *   A tela esquerda agora possui a cor de fundo baseada no tipo do Pokémon, assim como os cards da página principal.
+    *   **Layout Responsivo:** Adaptação do layout para telas menores, posicionando as seções 'left-screen' e 'right-screen' verticalmente, cada uma ocupando 100% da altura da tela, sem espaçamentos.
+    *   **Cores de Texto Adaptativas:** As cores do texto agora se ajustam automaticamente para garantir contraste e legibilidade em relação ao fundo de cada tipo de Pokémon.
 
+## Estrutura de Cores e Temas
 
+Para garantir uma estilização consistente e de fácil manutenção, as cores dos tipos de Pokémon são gerenciadas através de variáveis CSS (Custom Properties) definidas no arquivo `assets/css/pokemon-types.css`.
+
+Cada tipo de Pokémon possui duas variáveis associadas:
+
+*   `--color-<tipo>-bg`: Define a cor de fundo principal para o tipo.
+*   `--color-<tipo>-text`: Define a cor do texto que melhor contrasta com a cor de fundo, garantindo legibilidade.
+
+Essas variáveis são utilizadas em `assets/css/pokedex.css` e `assets/css/pokemon-detail.css` para aplicar dinamicamente as cores aos cards de Pokémon e aos detalhes, assegurando uma experiência visual coesa e acessível.

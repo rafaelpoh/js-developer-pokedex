@@ -1,0 +1,55 @@
+:root {
+  --color-normal-bg: #A8A878;
+  --color-normal-text: #333333;
+
+  --color-fire-bg: #F08030;
+  --color-fire-text: #FFFFFF;
+
+  --color-water-bg: #6890F0;
+  --color-water-text: #FFFFFF;
+
+  --color-grass-bg: #78C850;
+  --color-grass-text: #333333;
+
+  --color-electric-bg: #F8D030;
+  --color-electric-text: #333333;
+
+  --color-ice-bg: #98D8D8;
+  --color-ice-text: #333333;
+
+  --color-fighting-bg: #C03028;
+  --color-fighting-text: #FFFFFF;
+
+  --color-poison-bg: #A040A0;
+  --color-poison-text: #FFFFFF;
+
+  --color-ground-bg: #E0C068;
+  --color-ground-text: #333333;
+
+  --color-flying-bg: #A890F0;
+  --color-flying-text: #333333;
+
+  --color-psychic-bg: #F85888;
+  --color-psychic-text: #FFFFFF;
+
+  --color-bug-bg: #A8B820;
+  --color-bug-text: #333333;
+
+  --color-rock-bg: #B8A038;
+  --color-rock-text: #333333;
+
+  --color-ghost-bg: #705898;
+  --color-ghost-text: #FFFFFF;
+
+  --color-dragon-bg: #7038F8;
+  --color-dragon-text: #FFFFFF;
+
+  --color-steel-bg: #B8B8D0;
+  --color-steel-text: #333333;
+
+  --color-dark-bg: #705848;
+  --color-dark-text: #FFFFFF;
+
+  --color-fairy-bg: #EE99EE;
+  --color-fairy-text: #333333;
+}
